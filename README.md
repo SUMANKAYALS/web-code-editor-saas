@@ -224,20 +224,23 @@ npx convex deploy
 Add screenshots here:
 
 ```
+# 📸 Screenshots
+
 ### 🏠 Home Page
-![Home Page](Demo_image/home.png)
+![Home Page](./Demo_image/home.png)
 
-### 👤 payment
-![Create Bug](Demo_image/payment.png)
+### 💳 Payment
+![Payment](./Demo_image/payment.png)
 
-### 👤 pro plan
-![Profile](Demo_image/pro_plan.png)
+### ⭐ Pro Plan
+![Pro Plan](./Demo_image/pro_plan.png)
 
-### 👤 profile
-![Profile](Demo_image/profile.png)
+### 👤 Profile
+![Profile](./Demo_image/profile.png)
 
-### 👤 snippets
-![Profile](Demo_image/snippets.png)
+### 📄 Snippets
+![Snippets](./Demo_image/snippets.png)
+
 ```
 
 ---
