@@ -244,7 +244,8 @@ npx convex deploy
 
 GitHub:
 https://github.com/SUMANKAYALS
-
+Linkedin://www.linkedin.com/in/suman-kayal10/
+portfolio://sumankayalportfolio.vercel.app/
 ---
 
 # ⭐ Support
