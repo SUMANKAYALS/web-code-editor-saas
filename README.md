@@ -1,36 +1,266 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ☁️ SkyCode – Cloud-Based Code Editor
 
-## Getting Started
+SkyCode is a modern cloud-based code editor that allows developers to write, run, and share code instantly from anywhere. It features secure authentication, real-time database, syntax highlighting, Monaco editor integration, and Pro subscriptions powered by Lemon Squeezy.
 
-First, run the development server:
+---
+
+# 🚀 Live Demo
+
+🌐 https://skycode.dev *(replace with your actual domain)*
+
+---
+
+# ✨ Features
+
+## 👨‍💻 Core Features
+
+* Cloud-based code editor
+* Monaco Editor (VS Code editor)
+* Multi-language support
+* Syntax highlighting
+* Copy and share snippets
+* View snippet details
+
+---
+
+## 🔐 Authentication
+
+* Clerk authentication
+* Google login
+* GitHub login
+* Secure user sessions
+
+---
+
+## 💾 Database (Convex)
+
+* Store code snippets
+* Store comments
+* Star snippets
+* Real-time data updates
+
+---
+
+## 💳 Pro Features (Lemon Squeezy)
+
+* Upgrade to Pro subscription
+* Secure webhook verification
+* Automatic Pro activation
+* Premium access control
+
+---
+
+## 🎨 UI Features
+
+* Modern dark theme
+* Responsive design
+* Fast and optimized
+* Developer-focused interface
+
+---
+
+# 🧱 Tech Stack
+
+## Frontend
+
+* Next.js 15 / 16 (App Router)
+* TypeScript
+* Tailwind CSS
+* Monaco Editor
+* Lucide Icons
+
+## Backend
+
+* Convex (database + server functions)
+* Clerk (authentication)
+* Lemon Squeezy (payments)
+
+---
+
+# 📁 Project Structure
+
+```
+skycode/
+│
+├ app/
+│ ├ snippets/
+│ ├ editor/
+│ └ layout.tsx
+│
+├ components/
+│ ├ Header.tsx
+│ ├ Footer.tsx
+│ └ UpgradeButton.tsx
+│
+├ convex/
+│ ├ schema.ts
+│ ├ users.ts
+│ ├ snippets.ts
+│ ├ lemonSqueezy.ts
+│ └ http.ts
+│
+├ public/
+│ ├ favicon.svg
+│ └ og-image.png
+│
+└ README.md
+```
+
+---
+
+# ⚙️ Environment Variables
+
+Create `.env.local`
+
+```
+NEXT_PUBLIC_CONVEX_URL=
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+LEMON_SQUEEZY_WEBHOOK_SECRET=
+CLERK_WEBHOOK_SECRET=
+```
+
+---
+
+# 🛠️ Installation
+
+## 1. Clone repo
+
+```bash
+git clone https://github.com/YOUR_USERNAME/skycode.git
+cd skycode
+```
+
+---
+
+## 2. Install dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 3. Start Convex
+
+```bash
+npx convex dev
+```
+
+---
+
+## 4. Start Next.js
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 5. Open browser
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+http://localhost:3000
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+# 💳 Payment Integration Flow
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+User clicks Upgrade
+↓
+Lemon Squeezy checkout
+↓
+Webhook sent to Convex
+↓
+Signature verified
+↓
+User upgraded to Pro
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+# 🔐 Authentication Flow
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+User signs up
+↓
+Clerk webhook triggers
+↓
+Convex saves user
+↓
+User can create snippets
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+# 🧠 Database Tables
+
+* users
+* snippets
+* snippetComments
+* stars
+
+---
+
+# 🚀 Deployment
+
+Deploy frontend:
+
+* Vercel (recommended)
+
+Deploy backend:
+
+```bash
+npx convex deploy
+```
+
+---
+
+# 📸 Screenshots
+
+Add screenshots here:
+
+```
+public/screenshots/editor.png
+public/screenshots/snippets.png
+```
+
+---
+
+# 🧑‍💻 Author
+
+**Suman Kayal**
+
+GitHub:
+https://github.com/SUMANKAYALS
+
+---
+
+# ⭐ Support
+
+If you like this project, please star the repo ⭐
+
+---
+
+# 📜 License
+
+MIT License
+
+---
+
+# 🔗 Resources
+
+Convex:
+https://convex.dev
+
+Clerk:
+https://clerk.com
+
+Lemon Squeezy:
+https://lemonsqueezy.com
+
+Next.js:
+https://nextjs.org
