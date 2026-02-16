@@ -236,9 +236,6 @@ npx convex deploy
 ### 📄 Snippets
 ![Snippets](public/Demo_image/snippets.png)
 
-
-```
-
 ---
 
 # 🧑‍💻 Author
