@@ -6,7 +6,7 @@ SkyCode is a modern cloud-based code editor that allows developers to write, run
 
 # 🚀 Live Demo
 
-🌐 https://skycode.dev *(replace with your actual domain)*
+🌐 [skycode-iota.vercel.app](https://skycode-iota.vercel.app/)
 
 ---
 
@@ -128,7 +128,7 @@ CLERK_WEBHOOK_SECRET=
 ## 1. Clone repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/skycode.git
+git clone https://github.com/SUMANKAYALS/skycode.git
 cd skycode
 ```
 
