@@ -241,12 +241,12 @@ npx convex deploy
 # 🧑‍💻 Author
 
 **Suman Kayal**
-```
+--
 GitHub:
-https://github.com/SUMANKAYALS
-Linkedin:[//www.linkedin.com/in/suman-kayal10/](https://www.linkedin.com/in/suman-kayal10/)
+https://github.com/SUMANKAYALS,
+Linkedin:[//www.linkedin.com/in/suman-kayal10/](https://www.linkedin.com/in/suman-kayal10/),
 portfolio:[//sumankayalportfolio.vercel.app/](https://sumankayalportfolio.vercel.app/)
-```
+---
 ---
 
 # ⭐ Support
