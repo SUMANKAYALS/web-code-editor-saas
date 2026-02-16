@@ -227,19 +227,19 @@ Add screenshots here:
 # 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](./Demo_image/home.png)
+![Home Page](public/Demo_image/home.png)
 
 ### 💳 Payment
-![Payment](./Demo_image/payment.png)
+![Payment](public/Demo_image/payment.png)
 
 ### ⭐ Pro Plan
-![Pro Plan](./Demo_image/pro_plan.png)
+![Pro Plan](public/Demo_image/pro_plan.png)
 
 ### 👤 Profile
-![Profile](./Demo_image/profile.png)
+![Profile](public/Demo_image/profile.png)
 
 ### 📄 Snippets
-![Snippets](./Demo_image/snippets.png)
+![Snippets](public/Demo_image/snippets.png)
 
 ```
 
