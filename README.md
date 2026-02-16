@@ -221,11 +221,6 @@ npx convex deploy
 
 # 📸 Screenshots
 
-Add screenshots here:
-
-```
-# 📸 Screenshots
-
 ### 🏠 Home Page
 ![Home Page](public/Demo_image/home.png)
 
@@ -240,6 +235,7 @@ Add screenshots here:
 
 ### 📄 Snippets
 ![Snippets](public/Demo_image/snippets.png)
+
 
 ```
 
